@@ -40,7 +40,7 @@
       if(targetSVG.classList.contains('contacts__email')){
         infotabArea.innerHTML = 'satrik90@gmail.com';
       } else if (targetSVG.classList.contains('contacts__skype')) {
-        infotabArea.innerHTML= 'satrikts';
+        infotabArea.innerHTML= 'Satrik Satrik';
       } else if(targetSVG.classList.contains('contacts__github')){
         infotabArea.innerHTML = 'https://github.com/SatrikTS';
       };

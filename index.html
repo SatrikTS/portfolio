@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -17,8 +18,8 @@
           <span class="main-nav__span main-nav__span--third"></span>
         </div>
         <ul class="main-nav__list" id="menu">
-          <li class="main-nav__link"><a href="#portfolio" class="main-nav__ref">Портфолио</a></li>
           <li class="main-nav__link"><a href="#tech" class="main-nav__ref">Технологии</a></li>
+          <li class="main-nav__link"><a href="#portfolio" class="main-nav__ref">Портфолио</a></li>
           <li class="main-nav__link"><a href="#about" class="main-nav__ref">Обо мне</a></li>
         </ul>
       </nav>
@@ -55,7 +56,7 @@
           <h2 class="section-header">Технологии</h2>
           <div class="scills-tabs tabs">
             <div class="scills__description">
-              <p>Технологии и инструменты с которыми я работаю или работал, и по необходимости использую.</p>
+              <p>Технологии и инструменты с которыми я работаю и, по необходимости, использую.</p>
             </div>
             <ul class="scills__list">
               <li class="scils__item">html</li>
@@ -81,16 +82,16 @@
         <h2 class="portfolio__header section-header">Портфолио</h2>
         <ul class="portfolio__btns">
           <li class="portfolio__btn-item portfolio__btn-item--active"><a href="#" id='coder'>Верстка</a></li>
-          <li class="portfolio__btn-item" ><a href="#" id='design'>Разработка дизайна</a></li>
+          <li class="portfolio__btn-item" ><a href="#" id='design'>Создание с нуля</a></li>
           <li class="portfolio__btn-item" ><a href="#" id='cms'>Интеграция на CMS</a></li>
           <li class="portfolio__btn-item"><a href="#" id='studio'>Работы в студии</a></li>
         </ul>
 
         <div class="portfolio__wrap">
-          <div class="portfolio__inner cms coder design" dropzone="move">
+          <div class="portfolio__inner cms coder design" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/tools.jpg" alt="портфолио инстурмент" width="100%" height="auto">
+                <img src ="img/port/tools.jpg" alt="портфолио инстурмент" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Сайт магазина электроинструмента</h3>
@@ -100,10 +101,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner studio cms coder" dropzone="move">
+          <div class="portfolio__inner studio cms coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/podarok.jpg" alt="портфолио подарок" width="100%" height="auto">
+                <img src ="img/port/podarok.jpg" alt="портфолио подарок" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Интернет-магазин подарков на Opencart</h3>
@@ -113,10 +114,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner cms coder design" dropzone="move">
+          <div class="portfolio__inner cms coder design" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/mebel.png" alt="портфолио мебель" width="100%" height="auto">
+                <img src ="img/port/mebel.png" alt="портфолио мебель" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Сайт компании, делающей мебель</h3>
@@ -126,10 +127,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner studio cms coder" dropzone="move">
+          <div class="portfolio__inner studio cms coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/torti.png" alt="портфолио торты" width="100%" height="auto">
+                <img src ="img/port/torti.png" alt="портфолио торты" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Лакомый кусочек</h3>
@@ -139,10 +140,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner coder" dropzone="move">
+          <div class="portfolio__inner coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/watch.png" alt="портфолио часы" width="100%" height="auto">
+                <img src ="img/port/watch.png" alt="портфолио часы" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Интернет-магазин часов</h3>
@@ -152,10 +153,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner coder" dropzone="move">
+          <div class="portfolio__inner coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/pink.png" alt="портфолио" width="100%" height="auto">
+                <img src ="img/port/pink.png" alt="портфолио" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Адаптивная верстка</h3>
@@ -165,10 +166,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner coder" dropzone="move">
+          <div class="portfolio__inner coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/tec.jpg" alt="портфолио" width="100%" height="auto">
+                <img src ="img/port/tec.jpg" alt="портфолио" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Учебная верстка</h3>
@@ -178,10 +179,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner studio cms coder" dropzone="move">
+          <div class="portfolio__inner studio cms coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/inst.png" alt="портфолио инструменты" width="100%" height="auto">
+                <img src ="img/port/inst.png" alt="портфолио инструменты" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Интернет-магазин по продаже Электроинструмента</h3>
@@ -191,10 +192,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner coder design cms" dropzone="move">
+          <div class="portfolio__inner coder design cms" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/metal.jpg" alt="портфолио металл" width="100%" height="auto">
+                <img src ="img/port/metal.jpg" alt="портфолио металл" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Сайт компании приема металолома</h3>
@@ -204,10 +205,10 @@
             </div>
           </div>
 
-          <div class="portfolio__inner coder" dropzone="move">
+          <div class="portfolio__inner coder" >
             <div class="portfolio__block" draggable="true">
               <div class="portfolio__project">
-                <img src ="img/port/pullsky.png" alt="портфолио адаптив" width="100%" height="auto">
+                <img src ="img/port/pullsky.png" alt="портфолио адаптив" >
               </div>
               <div class="portfolio__description example">
                 <h3 class="example__header">Адаптивная верстка</h3>
@@ -231,12 +232,12 @@
           </div>
 
           <div class="about__photo">
-            <img src="img/account-img.jpg" alt="acount" width="300" height="auto">
+            <img src="img/account-img.jpg" alt="acount">
           </div>
 
           <div class="about__paragraph">
             <p>
-              Привет! Меня зовут Александр и вот он я.
+              Привет! Меня зовут Александр.
             </p>
             Первый опыт создания свой первых веб-старничек я приобрел в далеком
             2008 году, когда учился на первом курсе физического факультета по специальности
@@ -257,12 +258,11 @@
           </p>
           <p>
             Примерно с 2013 года у меня появился личный проект - сайт туристической направленности "wayempire.com"
-            Так я вернулся пристрастился к вебу. И не сказать, что я занимался там какими-то сложными вещами.
-            Так: наполнение сайтов своими или же заказными материалами, работа с админ-панелью Вордпресса,
-            небольшие работы по верстке. Капали деньги через адсенс и партнерские программы, планы были наполеонские.
+            Не сказать, что я занимался там какими-то сложными вещами. Так, наполнение сайтов своими или же заказными материалами, работа с админ-панелью Вордпресса,
+            небольшие работы по верстке. 
           </p>
           <p>
-            На волне успеха, хотелось запустить еще один блоговый проект. Так я полез в код и насал постигать ядро вордпресса.
+            Так я полез в код и стал постигать ядро вордпресса.
             При этом я продолжал работать на работе, не связанной никак со специальностью.
             Однако я решил положить край всему тому, чем мне не нравилось заниматься и глубже уйти в веб-технологии.
           </p>
@@ -289,7 +289,7 @@
             провинциальную веб-студию, где я занимался наполнением сайтов, версткой под <span>Джумлу и Опенкарт</span>, мелкими доработками различных проектов.
           </p>
           <p>
-            Первые месяцы пока я вьехал на новую для себя работу. я постигал азы работы в компании, а последующие пару месяцев наслаждался
+            Первые месяцы, пока вьехал на новую для себя работу, я постигал азы работы в компании, а последующие пару месяцев наслаждался
             процессом и зарплатой. Мне наконец-то нравилось, то чем я занимался, к тому же получая неплохие деньги.
           </p>
           <p>
@@ -298,21 +298,19 @@
             Мои знания ограничивались стандартными <span>html, css,</span> вызовом попапов с помощью <span>JS</span>, и понимания структуры нескольких <span>CMS</span>.
           </p>
           <p>
-            С этим надо былочто-то делать, и я занялся изучением инструментов разработки: <span>less, sass, gulp, grunt.</span> Начал верстать по БЭМ, использовать Гит, попробовал SVG.
-            Список уже стал выглядеть куда солидней. Но кто не знает <span>javascript</span> - тот разве может считаться полноценным разработчиком?. Так появилсь необходимоть глубже изучить данную технологию.
+            В определенный момент стало ясно, что надо быть в тренде, а потому необходимо изучать все новые инструменты и технологии: <span>less, sass, gulp, grunt.</span> Начал верстать по <span>БЭМ</span>, использовать <span>Гит</span>, попробовал SVG(который прикрутил всередине этого текста свосем не в тему), глубже стал изучать <span>JavaScript</span> и понял, что это не просто добавление класса по клику, а куда более мощная технология.
           </p>
           <p> Теперь мой багаж знаний, умений и навыков примерно таков, какой можно увидеть в разделе <a href="#tech">Технологии</a>, из мигающих прямоугольников</p>
 
             </div>
           </div>
         </div>
-      </div>
+     
     </main>
     <footer>
       <a href="#" class="btn-to-top">Вверх</a>
     </footer>
     <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
   </body>
 </html>
