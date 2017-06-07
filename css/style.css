@@ -34,7 +34,7 @@ summary {
   display: block;
 }
 audio,
-canvas,
+canvas,s
 progress,
 video {
   display: inline-block;
@@ -747,4 +747,10 @@ th {
     width: 75px;
     height: auto;
   }
+  
+  .scill-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
 }
